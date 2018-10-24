@@ -1,5 +1,4 @@
 require("dotenv").config();
-require("dotenv").config();
 
 //vars
 var keys = require("./keys.js");
@@ -34,7 +33,7 @@ var getArtistNames = function (artist) {
 // Function for running a Spotify search - Command is spotify-this-song
 var getSpotify = function (songName) {
     if (songName === undefined) {
-        songName = "What's my age again";
+        songName = "Bernadette";
     }
 
     spotify.search(
